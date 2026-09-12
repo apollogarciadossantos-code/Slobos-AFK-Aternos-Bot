@@ -1,0 +1,20 @@
+{
+  "name": "hermes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bedrockflayer": "github:torzodmc/mineflayer-for-bedrock"
+  },
+  "allowScripts": {
+    "raknet-native@1.2.3": true
+  }
+}
